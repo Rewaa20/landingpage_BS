@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrab5.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>BSproject</title>
+    <style>
+        .hero{
+            background-image: url('assets/img/img1.jpg');
+            background-size: cover;
+            height: 618px;
+            position: relative;
+        }
+        .overlay{
+            position: absolute;
+            width:100%;
+            background-color: rgba(10, 10, 10, 0.595);
+            height: 618px;
+            padding-top: 200px;
+        }
+        .overlay h1{
+            font-size: 70px;
+        }
+        .card{
+            /* width:30.33%; */
+            /* height: 200px; */
+        }
+        .mar{
+
+           
+            margin-top:80px;
+            /* height:350px; */
+            /* width:30.33%; */
+            border-radius:5px;
+            
+            
+        }
+        .bgimg{
+            background-image: url('assets/img/slider.PNG');
+            background-size: cover;
+        }
+        .sbtn{
+            margin-top:70px;
+        }
+        body{
+            background-color: rgba(103, 37, 37, 0.129);
+        }
+        .sli2{
+            background-color: rgba(139, 5, 5, 0.896);
+        }
+        .card-img-top{
+            width:100%;
+            margin-top: 5px;
+        }
+        .bor-botm{
+            border-bottom: 3px solid rgb(139, 5, 5);
+        }
+        .center{
+            text-align: center;
+        }
+        .img-td{
+            border-radius: 7px;
+        }
+        ul{
+            list-style-type:none;
+        }
+        ul li{
+            border-bottom: 2px solid #f8f9fa;
+        }
+        ul li:hover{
+            border-bottom: 2px solid rgb(139, 5, 5);
+        }
+        #fixed{
+            position: fixed;
+            bottom: 0;
+            right:0;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid sli2 d-flex justify-content pt-2"><!--  p tag have mb -->
+        <div class="d-flex">
+          <p class="text-white mx-4">0598765498</p>
+          <p class="text-white">info@dy.com</p>
+        </div>
+       <div class="w-100 d-flex justify-content-end ">
+        <p class="text-white me-4">login/sinup</p>
+       </div>
+    </div>
+    <!-- //navbar -->
+    <nav class="navbar  navbar-light bg-light"  >
+        <div class="container-fluid">
+          <h1 class="navbar-brand ms-5">DY LOGO</h1>
+            <ul class="d-flex">
+                <li><a class="nav-link text-dark active col" aria-current="page" href="#hom">Home</a></li>
+                <li><a class="nav-link text-dark col" href="#cam">Campous life</a></li>
+                <li><a class="nav-link text-dark col mx-1" href="#us">About Us</a></li>
+                <li><a class="nav-link text-dark  col" href="#evn" >Events</a></li>
+                <li><a class="nav-link text-dark  col" href="#con" >Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+<!-- //home -->
+    <div class="hero" id="hom">
+        <div class="overlay">
+            <h1 class="display-7 text-white text-center">Welcoe To DY Patil Universty</h1>
+            <center>
+                <p class="w-50 text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolorum quisquam nam debitis
+                    quos est sequi repudiandae tenetur impedit inventore cupiditate necessitatibus neque autem
+                     nobis officiis quaerat.
+                    Facilis voluptatum veritatis!</p>
+                    <div class="btn sli2 text-white mt-3">get started</div>
+            </center>
+            <center>
+                <div class="container">
+                  <div class="row">
+                    
+                    <div class="sli2  p-3 me-1 d-none d-lg-block col-lg   mar ">
+                        <img src="assets/img/f.PNG" alt="">
+                    </div>
+                    <div class="sli2 p-3 d-none d-lg-block col-lg   mar">
+                        <img src="assets/img/s.PNG" alt="">
+                    </div>
+                    <div class="sli2  p-3  ms-1 d-none d-lg-block  col-lg  mar">
+                        <img src="assets/img/t.PNG" alt="">
+                    </div>
+                   
+                  </div>
+                  </div>
+              </center> 
+        </div>
+       
+    </div>
+    <center class="bgcolor pb-4">
+      <div class="container">
+        <div class="row">
+            <div class="card col-md  me-1">
+                <!-- <img class="card-img-top w-25" src="assets/img/22.png" alt=""> -->
+                <div class="card-body">
+                    <div class="card-title">bootstrap card</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                          incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                         dolorum aut quas! Id, obcaecati inventore?</div>
+                         <button class="btn sli2 text-white mt-2 px-4">click</button>
+                </div>
+            </div >
+            <div class="card col-md">
+                <!-- <img class="card-img-top" src="hw1.PNG" alt=""> -->
+                <div class="card-body">
+                    <div class="card-title">bootstrap card</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                          incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                         dolorum aut quas! Id, obcaecati inventore?</div>
+                         <button class="btn sli2 text-white mt-2 px-4">click</button>
+                </div>
+            </div >
+            <div class="card col-md ms-1">
+                <!-- <img class="card-img-top" src="hw1.PNG" alt=""> -->
+                <div class="card-body">
+                    <div class="card-title">bootstrap card</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                          incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                         dolorum aut quas! Id, obcaecati inventore?</div>
+                         <button class="btn sli2 text-white mt-2 px-4">click</button>
+                </div>
+            </div >
+          </div>
+        </div>
+    </center>   
+    <!-- //carusol -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner" id="cam">
+          <div class="carousel-item active  w-100 p-5  bgimg" style="height: 450px;">
+            
+          </div>
+          <div class="carousel-item w-100 p-5 sli2" style="height: 450px;">
+            <h1 class="text-white w-50 d-block mx-auto sbtn ">this is slider and header by bootstrap</h1>
+            <p class="text-white w-50 h-100 d-block mx-auto sbtn">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit.
+                 Beatae at aliquam numquam illum vero quos sed ducimus tenetur? Sint itaque 
+                eligendi nostrum quae vero hic cum dolorem fuga neque nesciunt.
+               </p>
+             </div>
+          
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- //cards -->
+      <div class="container mt-5  bor-botm" id="us">
+        <center>
+            <div>
+                <h3>Our Featuered Programs</h3>
+                <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="row">
+                <div class="card  col-md  me-lg-1">
+                    <img class="card-img-top" src="assets/img/1.PNG" alt="">
+                    <div class="card-body">
+                        <div class="card-title">bootstrap card</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                              incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                             dolorum aut quas! Id, obcaecati inventore?</div>
+                             <button class="btn sli2 text-white mt-2 px-4">click</button>
+                    </div>
+                </div >
+                <div class="card col-md ">
+                    <img class="card-img-top" src="assets/img/2.PNG" alt="">
+                    <div class="card-body">
+                        <div class="card-title">bootstrap card</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                              incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                             dolorum aut quas! Id, obcaecati inventore?</div>
+                             <button class="btn sli2 text-white mt-2 px-4">click</button>
+                    </div>
+                </div >
+                <div class="card col-md  ms-lg-1">
+                    <img class="card-img-top" src="assets/img/3.PNG" alt="">
+                    <div class="card-body">
+                        <div class="card-title">bootstrap card</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur
+                             adipisicing elit. Laborum earum laudantium animi, dolor vero exercitationem nulla
+                              incidunt perspiciatis itaque, officiis reprehenderit molestiae esse eum
+                             dolorum aut quas! Id, obcaecati inventore?</div>
+                             <button class="btn sli2 text-white mt-2 px-4">click</button>
+                    </div>
+                </div >
+              </div>
+              <button class="btn btn-lg btn-outline-danger my-5 px-4">view all course</button>
+        </center>
+      </div>
+      <!-- //table -->
+      <div class="container mt-5" id="evn">
+        <center>
+            <div class="my-5">
+                <h3>Events Come Up</h3>
+                <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <table class="table bg-white align-middle my-4">
+         
+                <tbody>
+            <!-- <thead> -->
+               
+                <tr>
+                    <td class="center py-4">Event Addv</td>
+                    <td class="center py-4">Name&Description</td>
+                    <td class="center py-4">Date&Location</td>
+                </tr>
+           
+             <!-- </thead> -->
+            <tbody>
+                <!-- r1 -->
+                <tr>
+                    <td class="cm1 p-4 ">
+                        <img class="img-td d-block mx-auto " src="assets/img/a.PNG" alt="user">                       
+                    </td>
+                    <td class="p-4">
+                        <p class="center"> Event name</p>
+                        <p class="center">descripe event</p>
+                    </td>
+                    <td class="p-4  center"><p> 22/2/2022</p><p>event location</p></td>
+                   
+                </tr>
+    
+                <!-- r2 -->
+                <tr>
+                    <td class="cm1 p-4 ">
+                        <img class="img-td d-block mx-auto"src="assets/img/b.PNG" alt="user">                       
+                    </td>
+                    <td class="p-4">
+                        <p class="center"> Event name</p>
+                        <p class="center">descripe event</p>
+                    </td>
+                    <td class="p-4  center"><p> 22/2/2022</p><p>event location</p></td>
+                   
+                </tr>
+                <!-- r3 -->
+                <tr>
+                    <td class="cm1 p-4">
+                        <img class="img-td d-block mx-auto" src="assets/img/c.PNG" alt="user">                       
+                    </td>
+                    <td class="p-4">
+                        <p class="center"> Event name</p>
+                        <p class="center">descripe event</p>
+                    </td>
+                    <td class="p-4  center"><p> 22/2/2022</p><p>event location</p></td>
+                   
+                </tr>
+            </tbody>
+            </table>
+        </center>
+      </div>
+      <!-- Button trigger modal -->
+<center><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Get Mor Info
+  </button>
+</center>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">DY Patile universty</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique
+           nisi aliquid rem officiis alias itaque
+           ad harum voluptas minima sunt qui! Eius aut eveniet doloribus.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-outline-danger"></button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+      <div class="container-fluied sli2 p-5 mt-5" id="con">
+        <table class="table align-middle">
+            <tr>
+                <td class="text-white center">
+                    <h4 >Concat Us</h4>
+                    <p>DY Patil universty</p>
+                    <p>Ne Vai Numbi 04556</p>
+                    <p>000299876</p>
+                    <p>dy@info.com</p>
+    
+                </td>
+
+                <td class="text-white center">
+                    <h4 >Follow Us</h4>
+                    <span>000299876</span>
+                    <span>dy@info.com</apan>
+    
+                </td>
+
+                
+                <td class="text-white center">
+                    <h4 >Newsletter</h4>
+                    <span>Enter your email address to get</span><br>
+                    <p> newsletter and mor informations</p>
+                    <form>
+                        <input type="email" name="" id=""><br>
+                        <div class="btn btn-sm btn-light text-danger mt-2">Subscripe</div>
+                    </form>
+    
+                </td>
+            </tr>
+            
+         </table>
+         <div class="text-white center pt-3">
+            <p>DY Patil Universti</p>
+            <p>All Right reserved for DY Patil Universty 2022</p>
+    <!-- //book mark -->
+        <center><button type="button" class="btn btn-dark" id="fixed"><a class="text-light" href="#hom">UP</a></button></center>
+        <div>
+      </div>
+    <script src="assets/js/js1.min.js"></script>
+    <script src="assets/js/js2.min.js"></script>
+</body>
+</html>
